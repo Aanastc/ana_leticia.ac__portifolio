@@ -1,8 +1,8 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import Projetos from "./pages/Projetos";
-import SobreMim from "./Pages/SobreMim";
+import Navbar from "./Components/Navbar.jsx";
+import Home from "./Pages/Home.jsx";
+import Projetos from "./pages/Projetos.jsx";
+import SobreMim from "./Pages/SobreMim.jsx";
 
 export default function App() {
 	return (
