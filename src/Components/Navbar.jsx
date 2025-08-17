@@ -7,7 +7,7 @@ import {
 	XIcon,
 } from "@phosphor-icons/react";
 import { Link, useLocation } from "react-router-dom";
-import ThemeToggleButton from "./toggleTheme";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 export default function Navbar() {
 	const location = useLocation();
