@@ -6,10 +6,11 @@ import {
 import { useState } from "react";
 import SocialButtons from "../Components/SocialButtons";
 import Folders_ead from "../assets/imgs/folders_ead.png";
+import Connect_care from "../assets/imgs/connect_care.png";
 
 const projetos = [
 	{
-		id: 1,
+		id: 2,
 		titulo: "Folders dos cursos - EAD UNifor",
 		descricao:
 			"Projeto de organização de cursos EAD da Unifor com interface interativa.",
@@ -21,7 +22,7 @@ const projetos = [
 		producao: "2025.1",
 	},
 	{
-		id: 2,
+		id: 1,
 		titulo: "Design System - EAD UNifor",
 		descricao:
 			"Biblioteca de componentes reutilizáveis criada para padronizar interfaces do EAD da Unifor.",
@@ -31,6 +32,25 @@ const projetos = [
 		demo: "https://design-system-project-git-20242-ana-leticias-projects-198dfb27.vercel.app/",
 		// image: DesignSystem_ead,
 		producao: "Em andamento",
+	},
+	{
+		id: 3,
+		titulo: "Connect-care (TCC)",
+		descricao:
+			"Projeto de conclusão de curso, que visva conectar pacientes a profissionais de saúde de forma eficiente, para fazer serviços em casa(home care).",
+		tecnologias: [
+			"React",
+			"NPM",
+			"Vercel",
+			"Supabase",
+			"API REST",
+			"tailwindcss",
+		],
+		categoria: "React",
+		github: "connect-care",
+		demo: "https://connect-care-server.vercel.app/#section-1",
+		image: Connect_care,
+		producao: "2023",
 	},
 ];
 

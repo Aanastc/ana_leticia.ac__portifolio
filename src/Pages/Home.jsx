@@ -17,7 +17,7 @@ export default function Home() {
 				<span className="text-pink-500">Ana Letícia Alves Claudiano</span>
 			</h1>
 			<p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 mb-8">
-				Desenvolvedora Full Stack | Desenvolvedora Multimídia
+				Desenvolvedora Full Stack | Analista de Sistemas
 			</p>
 
 			<div className="flex gap-4 mb-8 flex-wrap justify-center">

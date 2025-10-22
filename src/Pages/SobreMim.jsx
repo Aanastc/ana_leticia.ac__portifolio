@@ -12,26 +12,32 @@ import {
 } from "@phosphor-icons/react";
 
 export default function SobreMim() {
-	const skills = [
-		"HTML",
-		"CSS",
-		"JavaScript",
-		"Tailwind CSS",
-		"React",
-		"Node.js",
-		"APIs RESTful",
-		"PostgreSQL",
-		"Git",
-		"Figma",
-		"Vercel",
-		"After Effects",
-		"Motion Design",
-	];
+	const skills = {
+		"Front-end": [
+			"HTML5",
+			"CSS3",
+			"JavaScript (ES6+)",
+			"React",
+			"Tailwind CSS",
+			"Design Systems",
+			"Acessibilidade Web (WCAG)",
+		],
+		"Back-end": ["Node.js", "APIs RESTful", "PostgreSQL"],
+		"DevOps & Cloud": [
+			"Docker",
+			"Git & GitHub",
+			"Vercel",
+			"CI/CD (Integração Contínua)",
+			"Arquitetura Cloud (em formação)",
+		],
+		"Design & UX": ["Figma", "UX/UI Design", "Motion Design", "After Effects"],
+	};
 
 	const softSkills = [
 		"Trabalho em equipe",
-		"Comunicação",
-		"Organização",
+		"Comunicação eficaz",
+		"Organização e proatividade",
+		"Resolução de problemas",
 		"Inglês intermediário",
 	];
 
@@ -43,7 +49,7 @@ export default function SobreMim() {
 	);
 
 	return (
-		<section className="max-w-5xl mx-auto px-6 py-12 text-gray-900 dark:text-gray-100">
+		<section className="max-w-6xl mx-auto px-6 py-12 text-gray-900 dark:text-gray-100">
 			{/* Header */}
 			<header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-12">
 				<div>
@@ -51,7 +57,7 @@ export default function SobreMim() {
 						Ana Letícia Alves Claudiano
 					</h1>
 					<p className="text-lg text-gray-600 dark:text-gray-300">
-						Desenvolvedora Full Stack | Web Designer Multimídia
+						Desenvolvedora Full Stack | Analista de Sistemas
 					</p>
 				</div>
 
@@ -89,29 +95,40 @@ export default function SobreMim() {
 			{/* Resumo Profissional */}
 			<SectionTitle icon={UserCircleCheckIcon} title="Resumo Profissional" />
 			<p className="mb-12 leading-relaxed text-gray-700 dark:text-gray-300">
-				Graduada em Análise e Desenvolvimento de Sistemas pela Universidade de
-				Fortaleza (Unifor), com dois anos de experiência como Web Designer e
-				programadora multimídia. Desenvolvi interfaces web responsivas, otimizei
-				e automatizei processos com <strong>Node.js</strong> e contribui para a
-				evolução de design systems institucionais. Também atuei em projetos
-				paralelos usando <strong>React</strong>.
+				Desenvolvedora Full Stack e Analista de Sistemas com mais de 5 anos de
+				experiência na criação de interfaces digitais responsivas, acessíveis e
+				centradas na experiência do usuário. Atuação com JavaScript e Node.js em
+				projetos de automação e otimização de sistemas, incluindo melhorias em
+				plataformas como o Moodle. Experiência com Design Systems, aplicação de
+				boas práticas de código e trabalho colaborativo em equipes
+				multidisciplinares.
 			</p>
 
-			{/* Duas colunas após o resumo */}
-			<div className="grid sm:grid-cols-[1fr_2fr] gap-10 sm:gap-16 pt-10">
-				{/* Coluna Esquerda - Skills */}
-				<div className="space-y-10 bg-gray-800 dark:bg-gray-900 p-6 rounded-lg text-gray-100">
+			{/* Layout principal */}
+			<div className="grid lg:grid-cols-[1fr_2fr] gap-10 sm:gap-16">
+				{/* Coluna Esquerda */}
+				<aside className="space-y-10 bg-gray-50 dark:bg-gray-900 pt-0 p-6 rounded-2xl shadow-md">
 					<div>
 						<SectionTitle
 							icon={CodeBlockIcon}
 							title="Habilidades / Ferramentas"
 						/>
-						<ul className="space-y-1 pl-5 list-disc marker:text-pink-400">
-							{skills.map((skill) => (
-								<li key={skill}>{skill}</li>
+						<div className="space-y-5">
+							{Object.entries(skills).map(([categoria, lista]) => (
+								<div key={categoria}>
+									<h4 className="text-pink-400 font-semibold mb-2">
+										{categoria}
+									</h4>
+									<ul className="space-y-1 pl-5 list-disc marker:text-pink-400 text-gray-800 dark:text-gray-200">
+										{lista.map((skill) => (
+											<li key={skill}>{skill}</li>
+										))}
+									</ul>
+								</div>
 							))}
-						</ul>
+						</div>
 					</div>
+
 					<div>
 						<SectionTitle icon={UserCheckIcon} title="Soft Skills" />
 						<ul className="space-y-1 pl-5 list-disc marker:text-pink-400">
@@ -120,10 +137,10 @@ export default function SobreMim() {
 							))}
 						</ul>
 					</div>
-				</div>
+				</aside>
 
-				{/* Coluna Direita - Experiência e Formação */}
-				<div className="space-y-10 sm:pl-10">
+				{/* Coluna Direita */}
+				<div className="space-y-10 sm:pl-4">
 					<div>
 						<SectionTitle
 							icon={BriefcaseIcon}
@@ -132,22 +149,68 @@ export default function SobreMim() {
 						<div className="space-y-6">
 							<div>
 								<h4 className="font-semibold text-lg">
-									Web Designer Multimídia
+									Analista de Suporte Moodle
 								</h4>
 								<p className="text-sm text-gray-600 dark:text-gray-400">
-									Polo EAD da Universidade de Fortaleza · 2022 - 2024
+									Universidade de Fortaleza · Presencial | Setembro de 2025 -
+									Presente
 								</p>
 								<ul className="mt-2 space-y-1 pl-5 list-disc marker:text-pink-400">
 									<li>
-										Desenvolvimento e implementação de páginas web com foco em
-										Clean Code.
+										Configuração, manutenção e integração de códigos na
+										plataforma Moodle.
 									</li>
-									<li>Configuração e integração de códigos no Moodle.</li>
-									<li>Automatização de processos com Node.js.</li>
 									<li>
-										Melhorias de interface no Moodle para maior usabilidade.
+										Automação e otimização de processos internos utilizando
+										Node.js.
 									</li>
-									<li>Criação de interfaces digitais com ReactJS.</li>
+									<li>
+										Atendimento a usuários via Service Desk Nível 1 e
+										escalonamento de incidentes.
+									</li>
+									<li>Criação e atualização de documentação técnica.</li>
+								</ul>
+							</div>
+
+							<div>
+								<h4 className="font-semibold text-lg">
+									Web Designer Multimídia
+								</h4>
+								<p className="text-sm text-gray-600 dark:text-gray-400">
+									Universidade de Fortaleza · Presencial | Abril de 2023 -
+									Setembro de 2025
+								</p>
+								<ul className="mt-2 space-y-1 pl-5 list-disc marker:text-pink-400">
+									<li>
+										Desenvolvimento de interfaces web com ReactJS e Tailwind
+										CSS.
+									</li>
+									<li>Melhorias de usabilidade e acessibilidade no Moodle.</li>
+									<li>
+										Automação de processos com Node.js e boas práticas de Clean
+										Code.
+									</li>
+								</ul>
+							</div>
+
+							<div>
+								<h4 className="font-semibold text-lg">
+									Projeto de Pesquisa (FUNCEME)
+								</h4>
+								<p className="text-sm text-gray-600 dark:text-gray-400">
+									Universidade de Fortaleza · Presencial | Abril de 2022 - Março
+									de 2023
+								</p>
+								<p className="mt-2 text-sm italic text-gray-700 dark:text-gray-300">
+									Otimização Geoespacial do Sistema de Abastecimento de Água do
+									Ceará.
+								</p>
+								<ul className="mt-2 space-y-1 pl-5 list-disc marker:text-pink-400">
+									<li>
+										Criação de scripts em Python para coleta e análise de dados
+										(Pandas, Matplotlib).
+									</li>
+									<li>Tratamento e visualização de dados geoespaciais.</li>
 								</ul>
 							</div>
 
@@ -156,14 +219,14 @@ export default function SobreMim() {
 									Estagiária de Desenvolvimento Web
 								</h4>
 								<p className="text-sm text-gray-600 dark:text-gray-400">
-									Polo EAD da Universidade de Fortaleza · 2021 - 2022
+									Universidade de Fortaleza · Presencial | 2021 - 2022
 								</p>
 								<ul className="mt-2 space-y-1 pl-5 list-disc marker:text-pink-400">
 									<li>
 										Criação de páginas web utilizando JavaScript, HTML, CSS e
 										Bootstrap.
 									</li>
-									<li> Configuração e integração de códigos no Moodle.</li>
+									<li>Configuração e integração de códigos no Moodle.</li>
 								</ul>
 							</div>
 						</div>
@@ -171,11 +234,23 @@ export default function SobreMim() {
 
 					<div>
 						<SectionTitle icon={GraduationCapIcon} title="Formação Acadêmica" />
-						<p>
-							<strong>Análise e Desenvolvimento de Sistemas</strong>
-							<br />
-							Universidade de Fortaleza (Unifor) – Conclusão em 2023
-						</p>
+						<div className="space-y-4">
+							<div>
+								<p>
+									<strong>Pós Tech: DevOps e Arquitetura Cloud</strong>
+									<br />
+									FIAP – EAD | Out 2025 – Em andamento
+								</p>
+							</div>
+							<div>
+								<p>
+									<strong>Análise e Desenvolvimento de Sistemas</strong>
+									<br />
+									Universidade de Fortaleza (Unifor) – Presencial | Ago 2021 –
+									Dez 2023
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
