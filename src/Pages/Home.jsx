@@ -27,12 +27,12 @@ export default function Home() {
 					Veja meus projetos <ArrowRightIcon size={20} />
 				</Link>
 
-				<a
+				{/* <a
 					href={CurriculoPDF}
 					download="AnaLeticia_CV.pdf"
 					className="px-6 py-3 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-semibold rounded-lg shadow hover:bg-gray-300 dark:hover:bg-gray-700 transition-transform duration-300 hover:scale-105 flex items-center gap-2">
 					Baixar Currículo <FileArrowDownIcon size={20} />
-				</a>
+				</a> */}
 			</div>
 
 			<div className="flex gap-6 text-gray-600 dark:text-gray-300">

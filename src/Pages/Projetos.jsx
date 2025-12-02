@@ -10,18 +10,6 @@ import Connect_care from "../assets/imgs/connect_care.png";
 
 const projetos = [
 	{
-		id: 2,
-		titulo: "Folders dos cursos - EAD UNifor",
-		descricao:
-			"Projeto de organização de cursos EAD da Unifor com interface interativa.",
-		tecnologias: ["React", "CSS", "Vercel"],
-		categoria: "React",
-		github: "https://github.com/Aanastc/FeiraDasProfi.git",
-		demo: "https://feira-das-profi.vercel.app/",
-		image: Folders_ead,
-		producao: "2025.1",
-	},
-	{
 		id: 1,
 		titulo: "Design System - EAD UNifor",
 		descricao:
@@ -34,7 +22,30 @@ const projetos = [
 		producao: "Em andamento",
 	},
 	{
+		id: 2,
+		titulo: "Controle de Finanças Pessoais",
+		descricao: "",
+		tecnologias: ["React", "tailwind.", "Vercel", "API REST"],
+		categoria: "React",
+		github: "https://github.com/Aanastc/financeiro.git",
+		demo: "https://vercel.com/ana-leticias-projects-198dfb27/financeiro/7mfVTE3GsnhJfAjLKJD6uuFYdaTR",
+		// image: DesignSystem_ead,
+		producao: "Em andamento",
+	},
+	{
 		id: 3,
+		titulo: "Folders dos cursos - EAD UNifor",
+		descricao:
+			"Projeto de organização de cursos EAD da Unifor com interface interativa.",
+		tecnologias: ["React", "CSS", "Vercel"],
+		categoria: "React",
+		github: "https://github.com/Aanastc/FeiraDasProfi.git",
+		demo: "https://feira-das-profi.vercel.app/",
+		image: Folders_ead,
+		producao: "2025.1",
+	},
+	{
+		id: 4,
 		titulo: "Connect-care (TCC)",
 		descricao:
 			"Projeto de conclusão de curso, que visva conectar pacientes a profissionais de saúde de forma eficiente, para fazer serviços em casa(home care).",
