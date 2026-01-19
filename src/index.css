@@ -1,2 +1,23 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* ANIMAÇÃO DO CAROUSEL INFINITO */
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-carousel {
+  animation: carousel 25s linear infinite;
+}

@@ -1,0 +1,245 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects"
+	},
+	"home": {
+		"greeting": "Hi, I am",
+		"role": "Full Stack Software Developer",
+		"subtitle": "Developing digital solutions with focus on Front-end and DevOps.",
+		"projectsButton": "See my projects",
+		"downloadCV": "Download CV",
+		"aria": {
+			"github": "GitHub",
+			"linkedin": "LinkedIn",
+			"email": "Email"
+		}
+	},
+	"experience": {
+		"title": "Professional Experience",
+		"current": {
+			"role": "Moodle Support Analyst",
+			"company": "Universidade de Fortaleza",
+			"period": "Sep/2025 – Present",
+			"mode": "On-site",
+			"activities": [
+				"Providing first-level support and incident resolution on Moodle, focusing on operational continuity, critical incident response, and end-user support.",
+				"Leading the creation, implementation, and evolution of the institutional Design System, promoting visual standardization, consistency across digital products, and adoption by internal teams.",
+				"Technical training and guidance for Multimedia Programmers in implementation, configuration, and best practices on Moodle.",
+				"Automating and maintaining Moodle processes using Node.js, Selenium, web scraping, and APIs, with continuous integration, code versioning, preventive monitoring, and technical documentation."
+			],
+			"stacks": ["Moodle", "Node.js", "Selenium", "APIs", "Design System"]
+		},
+		"previous": {
+			"role": "Moodle Support Analyst",
+			"company": "Universidade de Fortaleza",
+			"period": "Apr/2023 – Aug/2025",
+			"mode": "On-site",
+			"activities": [
+				"Development and maintenance of responsive interfaces in Moodle using Bootstrap and JavaScript, ensuring adherence to institutional standards.",
+				"Continuous improvement of usability, accessibility, and performance of educational pages.",
+				"Automation of internal processes for implementing standardized interfaces with Node.js, Selenium, and GitHub Labs.",
+				"Development of interactive digital folders using React.js, with continuous deployment via Vercel."
+			],
+			"stacks": [
+				"Moodle",
+				"JavaScript",
+				"Bootstrap",
+				"Node.js",
+				"React",
+				"Vercel"
+			]
+		},
+		"research": {
+			"title": "Research Project – FUNCEME",
+			"description": "Geospatial Optimization of the Water Supply System of Ceará",
+			"period": "Apr/2022 – Mar/2023",
+			"activities": [
+				"Development of Python scripts for ETL processes, data cleaning, and geospatial data analysis.",
+				"Using Pandas and Matplotlib for exploratory data analysis and visualization.",
+				"Supporting technical decision-making through generation of charts, reports, and data-driven insights."
+			],
+			"stacks": ["Python", "Pandas", "Matplotlib", "ETL", "Geospatial Data"]
+		}
+	},
+	"formation": {
+		"title": "Academic Background",
+		"certificates": "View certificates",
+		"postGrad": {
+			"title": "Post Tech – DevOps & Cloud",
+			"institution": "FIAP",
+			"period": "Ongoing",
+			"description": "Advanced practices in DevOps and cloud architecture, focusing on infrastructure automation, CI/CD pipelines, containers, observability, versioning, continuous integration, and best practices for scalable and distributed cloud environments.",
+			"stacks": [
+				"DevOps",
+				"Cloud Computing",
+				"CI/CD",
+				"Docker",
+				"Kubernetes",
+				"Observability"
+			]
+		},
+		"grad": {
+			"title": "Systems Analysis and Development",
+			"institution": "Universidade de Fortaleza",
+			"period": "2021 – 2023",
+			"description": "Solid training in software development, programming logic, data structures, databases, systems engineering, requirements analysis, and coding best practices, providing the technical foundation for web projects and corporate systems.",
+			"stacks": [
+				"JavaScript",
+				"React",
+				"HTML",
+				"CSS",
+				"Databases",
+				"Software Engineering"
+			]
+		}
+	},
+	"skills": {
+		"title": "Technical & Behavioral Skills",
+		"frontendTitle": "Front-end",
+		"backendTitle": "Back-end & Automation",
+		"devopsTitle": "DevOps & Cloud",
+		"dadosTitle": "Data & Analysis",
+		"ferramentasTitle": "Tools & Methodologies",
+		"softTitle": "Soft Skills",
+		"frontend": [
+			"HTML5",
+			"CSS3",
+			"JavaScript (ES6+)",
+			"TypeScript",
+			"React.js",
+			"Tailwind CSS",
+			"Bootstrap",
+			"Design Systems",
+			"UX/UI",
+			"Accessibility (WCAG)"
+		],
+		"backend": [
+			"Node.js",
+			"REST APIs",
+			"Web Scraping",
+			"Selenium",
+			"Process Automation"
+		],
+		"devops": [
+			"Docker",
+			"CI/CD",
+			"AWS (basic/intermediate)",
+			"Vercel",
+			"GitHub Actions"
+		],
+		"dados": ["Python", "Pandas", "Matplotlib", "ETL", "Data Analysis"],
+		"ferramentas": [
+			"Git",
+			"Gitflow",
+			"Technical Documentation",
+			"Scrum / Agile Methodologies",
+			"Moodle"
+		],
+		"soft": [
+			"Clear communication",
+			"Team collaboration",
+			"Analytical thinking",
+			"Problem solving",
+			"Attention to detail",
+			"UX and quality focus",
+			"Continuous learning",
+			"Autonomy and responsibility"
+		]
+	},
+	"history": {
+		"title": "My Story",
+		"paragraphs": [
+			"I am a <strong>Systems Analyst and Full Stack Developer</strong>, graduated in Systems Analysis and Development from Universidade de Fortaleza (Unifor), with over <strong>5 years of experience</strong> in the development and maintenance of institutional web systems.",
+			"I mainly work with <strong>React, JavaScript, TypeScript, and Node.js</strong>, focusing on building scalable, accessible, and well-structured interfaces integrated with REST APIs and automated workflows. I have strong experience in the <strong>Moodle</strong> ecosystem, where I directly contributed to the evolution of educational platforms.",
+			"At Universidade de Fortaleza, I led the <strong>creation and evolution of the institutional EAD Unifor Design System</strong>, promoting visual standardization, component reuse, and continuous improvement in usability, accessibility, and performance across digital products.",
+			"I also developed and maintained <strong>process automations</strong> using Node.js, Selenium, web scraping, and API integrations, reducing operational errors, increasing internal workflow efficiency, and ensuring greater reliability in production environments.",
+			"I have experience with <strong>code versioning (Git)</strong>, technical documentation, <strong>CI/CD</strong> pipelines, and deployment in cloud environments like <strong>AWS and Vercel</strong>. Currently, I am pursuing a postgraduate degree in <strong>DevOps and Cloud Architecture</strong>, deepening my knowledge in infrastructure, automation, and distributed environments."
+		],
+		"stats": [
+			{
+				"value": "+60%",
+				"label": "Productivity gain through process automation.",
+				"bg": "emerald"
+			},
+			{
+				"value": "-25%",
+				"label": "Reduction of visual inconsistencies after adopting the Design System.",
+				"bg": "pink"
+			}
+		]
+	},
+	"tabs": {
+		"historia": "My Story",
+		"experiencia": "Experience",
+		"habilidades": "Skills",
+		"formacao": "Education"
+	},
+
+	"projects": {
+		"title": "Projects",
+		"filterAll": "All",
+		"categories": ["React", "Node.js", "Python"],
+
+		"projectsList": [
+			{
+				"id": 1,
+				"title": "Design System - EAD Unifor",
+				"description": "Reusable component library created to standardize interfaces for EAD at Unifor.",
+				"technologies": ["React", "NPM", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/design_system-project.git",
+				"demo": "https://design-system-project-git-20242-ana-leticias-projects-198dfb27.vercel.app/",
+				"production": "Ongoing"
+			},
+			{
+				"id": 2,
+				"title": "Personal Finance Control",
+				"description": "Application for personal financial management with organization of income, expenses, and monthly planning.",
+				"technologies": ["React", "Tailwind CSS", "REST API", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/financeiro.git",
+				"demo": "https://financeiro-ku74z4ij6-ana-leticias-projects-198dfb27.vercel.app/login",
+				"production": "Ongoing"
+			},
+			{
+				"id": 3,
+				"title": "Course Folders - EAD Unifor",
+				"description": "Project for promoting and organizing EAD courses with interactive and responsive interface.",
+				"technologies": ["React", "CSS", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/FeiraDasProfi.git",
+				"demo": "https://feira-das-profi.vercel.app/",
+				"image": "Folders_ead.png",
+				"production": "2025.1"
+			},
+			{
+				"id": 4,
+				"title": "Connect Care (TCC)",
+				"description": "Final course project focused on connecting patients with healthcare professionals for home care services.",
+				"technologies": [
+					"React",
+					"Supabase",
+					"REST API",
+					"Tailwind CSS",
+					"Vercel"
+				],
+				"category": "React",
+				"github": "connect-care",
+				"demo": "https://connect-care-server.vercel.app/#section-1",
+				"image": "Connect_care.png",
+				"production": "2023"
+			}
+		],
+
+		"links": {
+			"code": "Code",
+			"demo": "Demo"
+		},
+
+		"socialsText": "Social Networks",
+		"thankYou": "Thank you for visiting my portfolio 💚",
+		"previewUnavailable": "📂 Preview unavailable"
+	}
+}

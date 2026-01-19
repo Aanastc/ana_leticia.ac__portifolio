@@ -2,7 +2,6 @@ import { MoonIcon, SunIcon } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
 
 const ThemeToggleButton = () => {
-	// Inicializa o tema com base no localStorage ou no sistema
 	const [theme, setTheme] = useState(() => {
 		if (typeof window !== "undefined") {
 			const storedTheme = localStorage.getItem("theme");
@@ -13,7 +12,7 @@ const ThemeToggleButton = () => {
 					: "light")
 			);
 		}
-		return "light"; // Valor padrão
+		return "light";
 	});
 
 	useEffect(() => {

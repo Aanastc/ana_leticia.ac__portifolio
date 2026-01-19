@@ -1,0 +1,244 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "Sobre",
+		"projects": "Projetos"
+	},
+	"home": {
+		"greeting": "Olá, eu sou",
+		"role": "Desenvolvedora de software Full Stack",
+		"subtitle": "Desenvolvimento de soluções digitais com foco em Front-end e DevOps.",
+		"projectsButton": "Veja meus projetos",
+		"downloadCV": "Baixar Currículo",
+		"aria": {
+			"github": "GitHub",
+			"linkedin": "LinkedIn",
+			"email": "Email"
+		}
+	},
+	"experience": {
+		"title": "Experiência Profissional",
+		"current": {
+			"role": "Analista de Suporte Moodle",
+			"company": "Universidade de Fortaleza",
+			"period": "Set/2025 – Atual",
+			"mode": "Presencial",
+			"activities": [
+				"Atuação no atendimento e resolução de incidentes de primeiro nível no Moodle, com foco em continuidade operacional, resposta a incidentes críticos e suporte a usuários finais.",
+				"Liderança na criação, implementação e evolução do Design System institucional, promovendo padronização visual, consistência entre produtos digitais e adoção pelas equipes internas.",
+				"Capacitação técnica e acompanhamento dos Programadores Multimídia nos processos de implementação, configuração e boas práticas no Moodle.",
+				"Automação e manutenção de processos do Moodle utilizando Node.js, Selenium, web scraping e APIs, com integração contínua, versionamento de código, monitoramento preventivo e documentação técnica."
+			],
+			"stacks": ["Moodle", "Node.js", "Selenium", "APIs", "Design System"]
+		},
+		"previous": {
+			"role": "Analista de Suporte Moodle",
+			"company": "Universidade de Fortaleza",
+			"period": "Abr/2023 – Ago/2025",
+			"mode": "Presencial",
+			"activities": [
+				"Desenvolvimento e manutenção de interfaces responsivas no Moodle utilizando Bootstrap e JavaScript, assegurando aderência aos padrões institucionais.",
+				"Melhoria contínua de usabilidade, acessibilidade e performance das páginas educacionais.",
+				"Automação de processos internos de implementação de interfaces padronizadas com Node.js, Selenium e GitHub Labs.",
+				"Desenvolvimento de folders digitais interativos com React.js, utilizando deploy contínuo via Vercel."
+			],
+			"stacks": [
+				"Moodle",
+				"JavaScript",
+				"Bootstrap",
+				"Node.js",
+				"React",
+				"Vercel"
+			]
+		},
+		"research": {
+			"title": "Projeto de Pesquisa – FUNCEME",
+			"description": "Otimização Geoespacial do Sistema de Abastecimento de Água do Ceará",
+			"period": "Abr/2022 – Mar/2023",
+			"activities": [
+				"Desenvolvimento de scripts em Python para processos de ETL, tratamento e análise de dados geoespaciais.",
+				"Utilização de Pandas e Matplotlib para análise exploratória e visualização de dados.",
+				"Apoio à tomada de decisão técnica por meio da geração de gráficos, relatórios e insights baseados em dados."
+			],
+			"stacks": ["Python", "Pandas", "Matplotlib", "ETL", "Dados Geoespaciais"]
+		}
+	},
+	"formation": {
+		"title": "Formação Acadêmica",
+		"certificates": "Ver certificados",
+		"postGrad": {
+			"title": "Pós Tech – DevOps & Cloud",
+			"institution": "FIAP",
+			"period": "Em andamento",
+			"description": "Aprofundamento em práticas de DevOps e arquitetura em nuvem, com foco em automação de infraestrutura, pipelines de CI/CD, containers, observabilidade, versionamento, integração contínua e boas práticas para ambientes escaláveis e distribuídos em cloud.",
+			"stacks": [
+				"DevOps",
+				"Cloud Computing",
+				"CI/CD",
+				"Docker",
+				"Kubernetes",
+				"Observabilidade"
+			]
+		},
+		"grad": {
+			"title": "Análise e Desenvolvimento de Sistemas",
+			"institution": "Universidade de Fortaleza",
+			"period": "2021 – 2023",
+			"description": "Formação sólida em desenvolvimento de software, lógica de programação, estruturas de dados, bancos de dados, engenharia de sistemas, análise de requisitos e boas práticas de codificação, fornecendo a base técnica para atuação em projetos web e sistemas corporativos.",
+			"stacks": [
+				"JavaScript",
+				"React",
+				"HTML",
+				"CSS",
+				"Bancos de Dados",
+				"Engenharia de Software"
+			]
+		}
+	},
+	"skills": {
+		"title": "Habilidades Técnicas & Comportamentais",
+		"frontendTitle": "Front-end",
+		"backendTitle": "Back-end & Automação",
+		"devopsTitle": "DevOps & Cloud",
+		"dadosTitle": "Dados & Análise",
+		"ferramentasTitle": "Ferramentas & Metodologias",
+		"softTitle": "Soft Skills",
+		"frontend": [
+			"HTML5",
+			"CSS3",
+			"JavaScript (ES6+)",
+			"TypeScript",
+			"React.js",
+			"Tailwind CSS",
+			"Bootstrap",
+			"Design Systems",
+			"UX/UI",
+			"Acessibilidade (WCAG)"
+		],
+		"backend": [
+			"Node.js",
+			"APIs REST",
+			"Web Scraping",
+			"Selenium",
+			"Automação de Processos"
+		],
+		"devops": [
+			"Docker",
+			"CI/CD",
+			"AWS (básico/intermediário)",
+			"Vercel",
+			"GitHub Actions"
+		],
+		"dados": ["Python", "Pandas", "Matplotlib", "ETL", "Análise de Dados"],
+		"ferramentas": [
+			"Git",
+			"Gitflow",
+			"Documentação Técnica",
+			"Scrum / Metodologias Ágeis",
+			"Moodle"
+		],
+		"soft": [
+			"Comunicação clara",
+			"Colaboração em equipe",
+			"Pensamento analítico",
+			"Resolução de problemas",
+			"Atenção aos detalhes",
+			"Foco em UX e qualidade",
+			"Aprendizado contínuo",
+			"Autonomia e responsabilidade"
+		]
+	},
+	"history": {
+		"title": "Minha História",
+		"paragraphs": [
+			"Sou <strong>Analista de Sistemas e Desenvolvedora Full Stack</strong>, formada em Análise e Desenvolvimento de Sistemas pela Universidade de Fortaleza (Unifor), com mais de <strong>5 anos de experiência</strong> no desenvolvimento e manutenção de sistemas web institucionais.",
+			"Atuo principalmente com <strong>React, JavaScript, TypeScript e Node.js</strong>, focando na construção de interfaces escaláveis, acessíveis e bem estruturadas, integradas a APIs REST e fluxos automatizados. Possuo forte experiência no ecossistema <strong>Moodle</strong>, onde trabalhei diretamente na evolução de plataformas educacionais.",
+			"Na Universidade de Fortaleza, liderei a <strong>criação e evolução do Design System institucional do EAD Unifor</strong>, promovendo padronização visual, reutilização de componentes e melhoria contínua de usabilidade, acessibilidade e performance entre diferentes produtos digitais.",
+			"Também desenvolvi e mantive <strong>automações de processos</strong> utilizando Node.js, Selenium, web scraping e integração com APIs, reduzindo erros operacionais, aumentando a eficiência dos fluxos internos e garantindo maior confiabilidade nos ambientes de produção.",
+			"Possuo experiência com <strong>versionamento de código (Git)</strong>, documentação técnica, pipelines de <strong>CI/CD</strong> e deploy em ambientes cloud como <strong>AWS e Vercel</strong>. Atualmente, estou em pós-graduação em <strong>DevOps e Arquitetura Cloud</strong>, aprofundando meus conhecimentos em infraestrutura, automação e ambientes distribuídos."
+		],
+		"stats": [
+			{
+				"value": "+60%",
+				"label": "Ganho de produtividade com automação de processos.",
+				"bg": "emerald"
+			},
+			{
+				"value": "-25%",
+				"label": "Redução de inconsistências visuais após adoção do Design System.",
+				"bg": "pink"
+			}
+		]
+	},
+	"tabs": {
+		"historia": "Minha História",
+		"experiencia": "Experiência",
+		"habilidades": "Habilidades",
+		"formacao": "Formação"
+	},
+	"projects": {
+		"title": "Projetos",
+		"filterAll": "Todos",
+		"categories": ["React", "Node.js", "Python"],
+
+		"projectsList": [
+			{
+				"id": 1,
+				"title": "Design System - EAD Unifor",
+				"description": "Biblioteca de componentes reutilizáveis criada para padronizar interfaces do EAD da Unifor.",
+				"technologies": ["React", "NPM", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/design_system-project.git",
+				"demo": "https://design-system-project-git-20242-ana-leticias-projects-198dfb27.vercel.app/",
+				"production": "Em andamento"
+			},
+			{
+				"id": 2,
+				"title": "Controle de Finanças Pessoais",
+				"description": "Aplicação para controle financeiro pessoal com organização de entradas, saídas e planejamento mensal.",
+				"technologies": ["React", "Tailwind CSS", "API REST", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/financeiro.git",
+				"demo": "https://financeiro-ku74z4ij6-ana-leticias-projects-198dfb27.vercel.app/login",
+				"production": "Em andamento"
+			},
+			{
+				"id": 3,
+				"title": "Folders dos Cursos - EAD Unifor",
+				"description": "Projeto de divulgação e organização de cursos EAD com interface interativa e responsiva.",
+				"technologies": ["React", "CSS", "Vercel"],
+				"category": "React",
+				"github": "https://github.com/Aanastc/FeiraDasProfi.git",
+				"demo": "https://feira-das-profi.vercel.app/",
+				"image": "Folders_ead.png",
+				"production": "2025.1"
+			},
+			{
+				"id": 4,
+				"title": "Connect Care (TCC)",
+				"description": "Projeto de conclusão de curso focado em conectar pacientes a profissionais de saúde para serviços de home care.",
+				"technologies": [
+					"React",
+					"Supabase",
+					"API REST",
+					"Tailwind CSS",
+					"Vercel"
+				],
+				"category": "React",
+				"github": "connect-care",
+				"demo": "https://connect-care-server.vercel.app/#section-1",
+				"image": "Connect_care.png",
+				"production": "2023"
+			}
+		],
+
+		"links": {
+			"code": "Código",
+			"demo": "Demo"
+		},
+
+		"socialsText": "Redes sociais",
+		"thankYou": "Obrigada por visitar meu portfólio 💚",
+		"previewUnavailable": "📂 Preview indisponível"
+	}
+}

@@ -7,7 +7,7 @@ import {
 
 export default function SocialButtons({
 	github = "https://github.com/Aanastc",
-	linkedin = "https://www.linkedin.com/in/analetíciaac",
+	linkedin = "https://www.linkedin.com/in/analetícia-react",
 	email = "mailto:analeticia_ac@outlook.com",
 	whatsapp = "https://wa.me/5531999679109?text=Olá%20Ana%20Letícia!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20falar%20com%20você.",
 	iconSize = 28,
