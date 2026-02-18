@@ -195,11 +195,21 @@
 			{
 				"id": 2,
 				"title": "Controle de Finanças Pessoais",
-				"description": "Aplicação para controle financeiro pessoal com organização de entradas, saídas e planejamento mensal.",
-				"technologies": ["React", "Tailwind CSS", "API REST", "Vercel"],
-				"category": "React",
-				"github": "https://github.com/Aanastc/financeiro.git",
-				"demo": "https://financeiro-ku74z4ij6-ana-leticias-projects-198dfb27.vercel.app/login",
+				"description": "Aplicação para controle financeiro pessoal com organização de entradas, saídas, metas, investimentos e planejamento mensal.",
+				"technologies": [
+					"React",
+					"React Native",
+					"Expo",
+					"Expo Router",
+					"TypeScript",
+					"Tailwind CSS",
+					"API REST",
+					"Supabase",
+					"Vercel"
+				],
+				"category": "Fullstack",
+				"github": "https://github.com/Aanastc/Financeiro_app",
+				"demo": "https://financeiro-app-web-dqgn.vercel.app",
 				"production": "Em andamento"
 			},
 			{

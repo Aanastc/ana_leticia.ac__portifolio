@@ -191,17 +191,27 @@
 				"category": "React",
 				"github": "https://github.com/Aanastc/design_system-project.git",
 				"demo": "https://design-system-project-git-20242-ana-leticias-projects-198dfb27.vercel.app/",
-				"production": "Ongoing"
+				"production": "In Progress"
 			},
 			{
 				"id": 2,
-				"title": "Personal Finance Control",
-				"description": "Application for personal financial management with organization of income, expenses, and monthly planning.",
-				"technologies": ["React", "Tailwind CSS", "REST API", "Vercel"],
-				"category": "React",
-				"github": "https://github.com/Aanastc/financeiro.git",
-				"demo": "https://financeiro-ku74z4ij6-ana-leticias-projects-198dfb27.vercel.app/login",
-				"production": "Ongoing"
+				"title": "Personal Finance Management",
+				"description": "Application for personal finance management with income tracking, expense control, goals, investments, and monthly planning.",
+				"technologies": [
+					"React",
+					"React Native",
+					"Expo",
+					"Expo Router",
+					"TypeScript",
+					"Tailwind CSS",
+					"REST API",
+					"Supabase",
+					"Vercel"
+				],
+				"category": "Fullstack",
+				"github": "https://github.com/Aanastc/Financeiro_app",
+				"demo": "https://financeiro-app-web-dqgn.vercel.app",
+				"production": "In Progress"
 			},
 			{
 				"id": 3,
