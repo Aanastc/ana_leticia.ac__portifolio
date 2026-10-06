@@ -6,8 +6,9 @@
 	},
 	"home": {
 		"greeting": "Hi, I am",
-		"role": "Full Stack Software Developer",
-		"subtitle": "Developing digital solutions with focus on Front-end and DevOps.",
+		"role": "Full Stack Developer",
+		"subtitle": "Full Stack Developer",
+		"location": "Brazil",
 		"projectsButton": "See my projects",
 		"downloadCV": "Download CV",
 		"aria": {
@@ -18,54 +19,152 @@
 	},
 	"experience": {
 		"title": "Professional Experience",
-		"current": {
-			"role": "Moodle Support Analyst",
-			"company": "Universidade de Fortaleza",
-			"period": "Sep/2025 – Present",
-			"mode": "On-site",
-			"activities": [
-				"Providing first-level support and incident resolution on Moodle, focusing on operational continuity, critical incident response, and end-user support.",
-				"Leading the creation, implementation, and evolution of the institutional Design System, promoting visual standardization, consistency across digital products, and adoption by internal teams.",
-				"Technical training and guidance for Multimedia Programmers in implementation, configuration, and best practices on Moodle.",
-				"Automating and maintaining Moodle processes using Node.js, Selenium, web scraping, and APIs, with continuous integration, code versioning, preventive monitoring, and technical documentation."
-			],
-			"stacks": ["Moodle", "Node.js", "Selenium", "APIs", "Design System"]
-		},
-		"previous": {
-			"role": "Moodle Support Analyst",
-			"company": "Universidade de Fortaleza",
-			"period": "Apr/2023 – Aug/2025",
-			"mode": "On-site",
-			"activities": [
-				"Development and maintenance of responsive interfaces in Moodle using Bootstrap and JavaScript, ensuring adherence to institutional standards.",
-				"Continuous improvement of usability, accessibility, and performance of educational pages.",
-				"Automation of internal processes for implementing standardized interfaces with Node.js, Selenium, and GitHub Labs.",
-				"Development of interactive digital folders using React.js, with continuous deployment via Vercel."
-			],
-			"stacks": [
-				"Moodle",
-				"JavaScript",
-				"Bootstrap",
-				"Node.js",
-				"React",
-				"Vercel"
-			]
-		},
-		"research": {
-			"title": "Research Project – FUNCEME",
-			"description": "Geospatial Optimization of the Water Supply System of Ceará",
-			"period": "Apr/2022 – Mar/2023",
-			"activities": [
-				"Development of Python scripts for ETL processes, data cleaning, and geospatial data analysis.",
-				"Using Pandas and Matplotlib for exploratory data analysis and visualization.",
-				"Supporting technical decision-making through generation of charts, reports, and data-driven insights."
-			],
-			"stacks": ["Python", "Pandas", "Matplotlib", "ETL", "Geospatial Data"]
-		}
+		"items": [
+			{
+				"role": "Full Stack Developer (Moodle)",
+				"company": "Lingopass",
+				"period": "Sep/2026 – Present",
+				"mode": "Remote (São Paulo, Brazil)",
+				"activities": [
+					"Developed and maintained custom PHP plugins (activities, custom blocks, and analytical reports) and adapted Boost-based themes prioritizing usability, performance, and UI design fidelity.",
+					"Engineered integrations between Moodle and third-party CRM, billing, and data platforms (HubSpot, Intercom, Stripe, BigQuery) via REST APIs and Webhooks using Node.js and TypeScript.",
+					"Spearheaded platform reliability and performance monitoring, proactively resolving production-critical incidents involving caching, authentication, and throughput.",
+					"Orchestrated release testing routines and pre-deployment validation to ensure continuous uptime, operational stability, and cross-functional alignment."
+				],
+				"stacks": [
+					"Moodle",
+					"PHP",
+					"Node.js",
+					"TypeScript",
+					"REST APIs",
+					"Webhooks",
+					"BigQuery",
+					"HubSpot",
+					"Stripe"
+				]
+			},
+			{
+				"role": "Full Stack Developer",
+				"company": "Universidade de Fortaleza (UNIFOR)",
+				"period": "Sep/2025 – Sep/2026",
+				"mode": "Full-time • On-site (Fortaleza, Ceará)",
+				"activities": [
+					"Led the architecture, modular implementation, and governance of the institutional Design System, distributed as a versioned npm front-end package with automated CI/CD and deployment on Vercel.",
+					"Mentored multimedia engineers and standardized development workflows, establishing architectural documentation, onboarding guides, and deployment standards in Moodle.",
+					"Architected RPA and process automation pipelines using Node.js, Selenium, and web scraping, minimizing manual operational errors and boosting overall workflow efficiency.",
+					"Managed first-level (L1) incident resolution and root-cause analysis in Moodle, guaranteeing SLA compliance, high platform availability, and educational service continuity."
+				],
+				"stacks": [
+					"React",
+					"Design System",
+					"npm",
+					"Vercel",
+					"CI/CD",
+					"Node.js",
+					"Selenium",
+					"REST APIs",
+					"Moodle",
+					"Git"
+				]
+			},
+			{
+				"role": "Front-end Developer",
+				"company": "Universidade de Fortaleza (UNIFOR)",
+				"period": "Apr/2023 – Sep/2025",
+				"mode": "Full-time • On-site (Fortaleza, Ceará)",
+				"activities": [
+					"Engineered responsive and accessible educational interfaces in Moodle using Bootstrap and JavaScript, maintaining strict adherence to WCAG accessibility and brand standards.",
+					"Automated component packaging and distribution pipelines with Node.js, Selenium, and GitHub Labs, accelerating delivery cycles for engineering teams.",
+					"Developed interactive digital brochures using React.js with continuous deployment on Vercel, achieving superior loading speed and maintainability."
+				],
+				"stacks": [
+					"React.js",
+					"JavaScript",
+					"Bootstrap",
+					"Moodle",
+					"Node.js",
+					"Selenium",
+					"Accessibility (WCAG)",
+					"Vercel"
+				]
+			},
+			{
+				"role": "Web Development Intern",
+				"company": "Universidade de Fortaleza (UNIFOR)",
+				"period": "Jul/2022 – Apr/2023",
+				"mode": "Internship • On-site (Fortaleza, Ceará)",
+				"activities": [
+					"Built dynamic, responsive web interfaces with JavaScript (ES6+), HTML5 semantics, and modular SASS/CSS3 following Mobile-First best practices.",
+					"Supported Moodle platform administration, plugin configuration, webhook integrations, and custom core modifications."
+				],
+				"stacks": [
+					"JavaScript (ES6+)",
+					"HTML5",
+					"CSS3 / SASS",
+					"Bootstrap",
+					"Moodle",
+					"Webhooks"
+				]
+			},
+			{
+				"role": "Scientific Researcher & Developer",
+				"company": "Universidade de Fortaleza / FUNCEME",
+				"period": "Apr/2022 – Mar/2023",
+				"mode": "Scholar • Hybrid (Fortaleza, Ceará)",
+				"activities": [
+					"Conducted applied research on the Geospatial Optimization of Ceará's Water Supply System using Data Science and Complex Networks Theory.",
+					"Engineered Python ETL pipelines and geospatial visualizations with Pandas and Matplotlib to support technical governmental decision-making on water resources."
+				],
+				"stacks": [
+					"Python",
+					"Pandas",
+					"Matplotlib",
+					"ETL",
+					"Data Science",
+					"Complex Networks"
+				]
+			}
+		]
 	},
 	"formation": {
 		"title": "Academic Background",
 		"certificates": "View certificates",
+		"courses": [
+			{
+				"id": "fiap-devops",
+				"type": "Postgraduate",
+				"title": "Post Tech – DevOps & Cloud Architecture",
+				"institution": "FIAP",
+				"period": "Oct/2025 – Ongoing",
+				"description": "Advanced specialization covering the full modern lifecycle of development and operations: microservices, containerization with Docker and Kubernetes on AWS EKS, Infrastructure as Code (Terraform), DevSecOps pipelines, GitOps continuous deployment (ArgoCD), end-to-end observability (OpenTelemetry, Prometheus, Grafana, Loki), and SRE / FinOps practices.",
+				"stacks": [
+					"Docker",
+					"Kubernetes (EKS)",
+					"Terraform (IaC)",
+					"AWS",
+					"ArgoCD (GitOps)",
+					"DevSecOps",
+					"OpenTelemetry",
+					"Prometheus & Grafana",
+					"SRE & FinOps"
+				]
+			},
+			{
+				"id": "unifor-ads",
+				"type": "Bachelor's Degree",
+				"title": "Systems Analysis and Development",
+				"institution": "University of Fortaleza (UNIFOR)",
+				"period": "Aug/2021 – Dec/2023",
+				"description": "Solid training in software development, programming logic, data structures, relational databases, systems engineering, requirements analysis, and coding best practices for enterprise web solutions.",
+				"stacks": [
+					"JavaScript",
+					"React.js",
+					"HTML5 & CSS3",
+					"Databases",
+					"Software Engineering"
+				]
+			}
+		],
 		"postGrad": {
 			"title": "Post Tech – DevOps & Cloud",
 			"institution": "FIAP",
@@ -97,75 +196,125 @@
 	},
 	"skills": {
 		"title": "Technical & Behavioral Skills",
-		"frontendTitle": "Front-end",
-		"backendTitle": "Back-end & Automation",
-		"devopsTitle": "DevOps & Cloud",
-		"dadosTitle": "Data & Analysis",
-		"ferramentasTitle": "Tools & Methodologies",
+		"frontendTitle": "Front-end & UI/UX",
+		"backendTitle": "Back-end & Architecture",
+		"bancosTitle": "Databases & Storage",
+		"aiTitle": "Artificial Intelligence & LLMs",
+		"devopsTitle": "DevOps & Cloud (Postgraduate)",
+		"dadosTitle": "Data & Analytics",
+		"ferramentasTitle": "Tools",
+		"metodologiasTitle": "Methodologies & Software Engineering",
 		"softTitle": "Soft Skills",
 		"frontend": [
-			"HTML5",
-			"CSS3",
+			"React.js & React Hooks",
 			"JavaScript (ES6+)",
 			"TypeScript",
-			"React.js",
+			"HTML5 & CSS3",
 			"Tailwind CSS",
 			"Bootstrap",
-			"Design Systems",
-			"UX/UI",
-			"Accessibility (WCAG)"
+			"SASS / SCSS",
+			"Design Systems & Reusable Component Libraries (NPM)",
+			"Responsive & Mobile First",
+			"Web Accessibility (WCAG)",
+			"Vite"
 		],
 		"backend": [
-			"Node.js",
-			"REST APIs",
-			"Web Scraping",
-			"Selenium",
-			"Process Automation"
+			"Node.js & Express",
+			"PHP (Custom Plugins & Boost Themes in Moodle)",
+			"Go (Golang)",
+			"Python & Flask",
+			"Microservices Architecture",
+			"RESTful APIs & Webhooks",
+			"Asynchronous Messaging & Queues (AWS SQS)",
+			"RPA with Selenium & Web Scraping",
+			"Frontend & Backend Integration"
+		],
+		"bancos": [
+			"PostgreSQL",
+			"MySQL",
+			"Redis (Distributed Caching)",
+			"Supabase",
+			"Amazon DynamoDB (NoSQL)",
+			"Google BigQuery",
+			"Relational Modeling & SQL"
+		],
+		"ai": [
+			"LLMs (Large Language Models)",
+			"Prompt Engineering",
+			"AI API Integrations (OpenAI / Claude / Gemini)",
+			"RAG (Retrieval-Augmented Generation)",
+			"AI-driven Process Automation",
+			"Autonomous AI Agents"
 		],
 		"devops": [
-			"Docker",
-			"CI/CD",
-			"AWS (basic/intermediate)",
+			"Docker & Docker Compose",
+			"Kubernetes (K8s & AWS EKS)",
+			"Terraform (Infrastructure as Code - IaC)",
+			"CI/CD & DevSecOps (GitHub Actions, Trivy, SonarCloud)",
+			"GitOps (ArgoCD)",
+			"Observability (Prometheus, Grafana, OpenTelemetry, Loki)",
+			"APM & Tracing (New Relic)",
+			"SRE (SLIs, SLOs, Error Budgets)",
+			"FinOps & Cloud Cost Governance",
+			"AWS (EC2, EKS, RDS, SQS, ElastiCache, DynamoDB, S3)",
+			"Git & GitHub (Versioning & Gitflow)",
 			"Vercel",
-			"GitHub Actions"
+			"Linux & Shell Script",
+			"Self-Healing & High Availability"
 		],
-		"dados": ["Python", "Pandas", "Matplotlib", "ETL", "Data Analysis"],
+		"dados": [
+			"Python",
+			"Pandas",
+			"Matplotlib",
+			"ETL & Data Wrangling",
+			"Geospatial Water Resource Analysis",
+			"Data Visualization"
+		],
 		"ferramentas": [
-			"Git",
-			"Gitflow",
-			"Technical Documentation",
-			"Scrum / Agile Methodologies",
-			"Moodle"
+			"Jira",
+			"ClickUp",
+			"Moodle LMS (Administration, Custom Plugins, Boost and APIs)",
+			"Figma (Prototyping & Design Systems)",
+			"Postman (API Testing)",
+			"VS Code"
+		],
+		"metodologias": [
+			"Technical Documentation & Swagger",
+			"Scrum & Kanban (Agile Methodologies)",
+			"Clean Code & Best Practices",
+			"Code Review & Gitflow"
 		],
 		"soft": [
-			"Clear communication",
-			"Team collaboration",
-			"Analytical thinking",
+			"Teamwork",
+			"Clear and objective communication",
+			"Organization",
 			"Problem solving",
-			"Attention to detail",
-			"UX and quality focus",
+			"Analytical thinking",
+			"Adaptability",
 			"Continuous learning",
-			"Autonomy and responsibility"
+			"Demand management",
+			"Attention to detail",
+			"Proactivity",
+			"Autonomy & Ownership",
+			"Focus on User Experience (UX)"
 		]
 	},
 	"history": {
 		"title": "My Story",
 		"paragraphs": [
-			"I am a <strong>Systems Analyst and Full Stack Developer</strong>, graduated in Systems Analysis and Development from Universidade de Fortaleza (Unifor), with over <strong>5 years of experience</strong> in the development and maintenance of institutional web systems.",
-			"I mainly work with <strong>React, JavaScript, TypeScript, and Node.js</strong>, focusing on building scalable, accessible, and well-structured interfaces integrated with REST APIs and automated workflows. I have strong experience in the <strong>Moodle</strong> ecosystem, where I directly contributed to the evolution of educational platforms.",
-			"At Universidade de Fortaleza, I led the <strong>creation and evolution of the institutional EAD Unifor Design System</strong>, promoting visual standardization, component reuse, and continuous improvement in usability, accessibility, and performance across digital products.",
-			"I also developed and maintained <strong>process automations</strong> using Node.js, Selenium, web scraping, and API integrations, reducing operational errors, increasing internal workflow efficiency, and ensuring greater reliability in production environments.",
-			"I have experience with <strong>code versioning (Git)</strong>, technical documentation, <strong>CI/CD</strong> pipelines, and deployment in cloud environments like <strong>AWS and Vercel</strong>. Currently, I am pursuing a postgraduate degree in <strong>DevOps and Cloud Architecture</strong>, deepening my knowledge in infrastructure, automation, and distributed environments."
+			"I am a <strong>Systems Analyst and Full Stack Developer</strong> with over <strong>5 years of experience</strong> engineering, architecting, and sustaining institutional and corporate web platforms, working primarily with <strong>React, JavaScript, TypeScript, and Node.js</strong>. My focus centers on building high-performance, accessible (WCAG), and architecturally scalable interfaces integrated with resilient REST APIs and automated workflows.",
+			"Throughout my career, I consolidated deep expertise in the <strong>Moodle</strong> ecosystem, spearheading the design and architecture of an institutional <strong>Design System</strong> that unified visual branding, maximized component reuse, and established benchmarks for performance and usability. Simultaneously, I engineered RPA and automation solutions using <strong>Node.js, Selenium, and web scraping</strong>, eliminating operational bottlenecks and boosting overall team productivity.",
+			"I bring robust experience with <strong>CI/CD</strong> pipelines, semantic versioning with <strong>Git</strong>, automated cloud deployments (<strong>AWS and Vercel</strong>), and seamless end-to-end frontend/backend integration. I am currently pursuing a postgraduate specialization in <strong>DevOps and Cloud Architecture</strong>, advancing my expertise in Infrastructure as Code (IaC with Terraform), distributed observability, and container orchestration."
 		],
 		"stats": [
 			{
-				"value": "+60%",
-				"label": "Productivity gain through process automation.",
+				"value": "+5 years",
+				"label": "Of experience in software engineering and web platforms.",
 				"bg": "emerald"
 			},
 			{
-				"value": "-25%",
-				"label": "Reduction of visual inconsistencies after adopting the Design System.",
+				"value": "+60%",
+				"label": "Efficiency and productivity gain through automation & Design System.",
 				"bg": "pink"
 			}
 		]
@@ -180,28 +329,30 @@
 	"projects": {
 		"title": "Projects",
 		"filterAll": "All",
+		"searchPlaceholder": "Search by project name or tech...",
+		"noProjectsFound": "No projects found matching your criteria.",
+		"clearFilters": "Clear filters",
 		"categories": ["React", "Node.js", "Python"],
 
 		"projectsList": [
 			{
 				"id": 1,
 				"title": "Design System - EAD Unifor",
-				"description": "Reusable component library created to standardize interfaces for EAD at Unifor.",
-				"technologies": ["React", "NPM", "Vercel"],
+				"description": "Modular institutional React component library distributed via npm and integrated into Vercel with CI/CD, standardizing the educational digital ecosystem and accelerating delivery velocity.",
+				"technologies": ["React", "NPM", "Vercel", "Storybook", "CI/CD"],
 				"category": "React",
 				"github": "https://github.com/Aanastc/design_system-project.git",
 				"demo": "https://design-system-project-git-20242-ana-leticias-projects-198dfb27.vercel.app/",
-				"production": "In Progress"
+				"production": "In Production"
 			},
 			{
 				"id": 2,
 				"title": "Personal Finance Management",
-				"description": "Application for personal finance management with income tracking, expense control, goals, investments, and monthly planning.",
+				"description": "Full stack platform for comprehensive personal finance management (web & mobile), featuring intelligent cash flow categorization, budget projections, and real-time cloud sync with Supabase and TypeScript.",
 				"technologies": [
 					"React",
 					"React Native",
 					"Expo",
-					"Expo Router",
 					"TypeScript",
 					"Tailwind CSS",
 					"REST API",
@@ -215,9 +366,9 @@
 			},
 			{
 				"id": 3,
-				"title": "Course Folders - EAD Unifor",
-				"description": "Project for promoting and organizing EAD courses with interactive and responsive interface.",
-				"technologies": ["React", "CSS", "Vercel"],
+				"title": "Interactive Course Brochures - EAD Unifor",
+				"description": "Interactive web application for academic course showcases, engineered in React.js with a strong focus on fluid UX, accessibility, rapid load performance, and automated Vercel deployment.",
+				"technologies": ["React", "Tailwind CSS", "Vercel", "Mobile First"],
 				"category": "React",
 				"github": "https://github.com/Aanastc/FeiraDasProfi.git",
 				"demo": "https://feira-das-profi.vercel.app/",
@@ -226,8 +377,8 @@
 			},
 			{
 				"id": 4,
-				"title": "Connect Care (TCC)",
-				"description": "Final course project focused on connecting patients with healthcare professionals for home care services.",
+				"title": "Connect Care (HealthTech)",
+				"description": "Web platform connecting patients with specialized home care health practitioners, integrating secure authentication, appointment workflows, and cloud database persistence.",
 				"technologies": [
 					"React",
 					"Supabase",
@@ -240,6 +391,60 @@
 				"demo": "https://connect-care-server.vercel.app/#section-1",
 				"image": "Connect_care.png",
 				"production": "2023"
+			},
+			{
+				"id": 5,
+				"title": "Fleet Rental Management (Car Rental)",
+				"description": "Comprehensive fleet and car rental management system featuring an analytics dashboard, flexible contract workflows (daily/weekly/monthly), cash flow financial controls, digital photo inspections, maintenance tracking, and secure Supabase authentication.",
+				"technologies": [
+					"React",
+					"Vite",
+					"Tailwind CSS",
+					"Supabase",
+					"PostgreSQL",
+					"React Router",
+					"Vercel"
+				],
+				"category": "Fullstack",
+				"github": "https://github.com/Aanastc/locacao_de_carros",
+				"demo": "https://locacao-de-carros.vercel.app/",
+				"production": "2026"
+			},
+			{
+				"id": 6,
+				"title": "SolidaryTech (NGO Platform & SRE Resilience)",
+				"description": "Final consolidation project for Post Tech: high-resilience polyglot microservices platform (Go and Python) for NGO and donation management, featuring AWS SQS asynchronous messaging, SRE principles (SLIs, SLOs, Error Budgets), FinOps cloud governance, and Kubernetes infrastructure orchestrated with Terraform.",
+				"technologies": [
+					"Go",
+					"Python",
+					"Kubernetes",
+					"Terraform",
+					"AWS SQS",
+					"SRE & FinOps",
+					"PostgreSQL"
+				],
+				"category": "DevOps",
+				"github": "https://github.com/Aanastc/Fase5_posTech",
+				"demo": "https://drive.google.com/file/d/1Uc8Hf2My_-ubR3oo7kJ8n7BSGZYIXOj3/view?usp=drive_link",
+				"production": "Final Project (Post Tech)"
+			},
+			{
+				"id": 7,
+				"title": "ToggleMaster (Feature Flag Platform & Cloud)",
+				"description": "Enterprise feature flag platform distributed into microservices, featuring immutable infrastructure provisioned via Terraform on AWS (EKS, RDS, Redis, DynamoDB), DevSecOps CI/CD pipelines in GitHub Actions, continuous GitOps deployments via ArgoCD, and full observability (OpenTelemetry, Prometheus, Grafana, Loki).",
+				"technologies": [
+					"Kubernetes (EKS)",
+					"Terraform",
+					"ArgoCD (GitOps)",
+					"DevSecOps",
+					"OpenTelemetry",
+					"Prometheus & Grafana",
+					"Docker"
+				],
+				"category": "DevOps",
+				"github": "https://github.com/Santosu01/techchallenger-fases-postech",
+				"demo": "https://drive.google.com/file/d/1PTc8-QVeOJazfpVTVbRjyUZ_q0OqQMj6/view?usp=drive_link",
+				"production": "Post Tech (Phases 1 to 4)"
 			}
 		],
 
@@ -250,6 +455,113 @@
 
 		"socialsText": "Social Networks",
 		"thankYou": "Thank you for visiting my portfolio 💚",
-		"previewUnavailable": "📂 Preview unavailable"
+		"previewUnavailable": "📂 Preview unavailable",
+		"postGrad": {
+			"badge": "Continuing Education & Postgraduate",
+			"title": "Postgraduate Deliverables",
+			"description": "Hands-on projects, architectural challenges, and engineering pipelines developed throughout the specialization, covering the modern software lifecycle end-to-end: from monolith to containerization, IaC, GitOps, SRE, and FinOps.",
+			"videoButton": "Watch Video",
+			"folderButton": "Files & Docs",
+			"skillsLabel": "Acquired Skills",
+			"programs": [
+				{
+					"id": "fiap-devops",
+					"institution": "FIAP",
+					"course": "Post Tech in DevOps & Cloud Architecture",
+					"status": "Ongoing",
+					"phases": [
+						{
+							"id": 1,
+							"title": "Phase 1: Monolithic MVP & DevOps Fundamentals",
+							"project": "ToggleMaster (Feature Flag as a Service)",
+							"description": "Development of the ToggleMaster MVP in Python/Flask to manage feature flags in production without requiring new deployments. Implementation of containerization with Docker and Docker Compose, comparative analysis between monolithic and distributed architectures, and design of initial cloud architecture on AWS (EC2, VPC, Security Groups) with DevOps culture best practices.",
+							"stacks": ["Docker", "Docker Compose", "Python", "Flask", "AWS EC2", "DevOps Culture"],
+							"skills": [
+								"Containerization with Docker",
+								"Monolithic vs Distributed Architecture",
+								"Feature Flags & Decoupled Deployments",
+								"AWS Cloud (EC2, VPC, Security Groups)",
+								"DevOps Culture & Mindset"
+							],
+							"videoLink": "https://drive.google.com/file/d/1RopLRjsBKqAygkIHzFo15_az1yCWD0lY/view?usp=drive_link",
+							"folderLink": "https://drive.google.com/drive/folders/1oVrw1W5w2RpDky3BVgbJgSS4WVPtIC5D",
+							"githubLink": "https://github.com/Santosu01/techchallenger-fases-postech"
+						},
+						{
+							"id": 2,
+							"title": "Phase 2: Microservices & Kubernetes Orchestration",
+							"project": "ToggleMaster Distributed on EKS",
+							"description": "Decomposition of the monolith into specialized, autonomous microservices (Auth Service in Go, Flag and Targeting Services in Python/Flask, Evaluation Service in Go/Redis, and Analytics Service in Python/DynamoDB/SQS). Multi-stage Dockerfile optimization, local orchestration with Docker Compose, and migration to managed Kubernetes on AWS EKS with declarative manifests (Deployments, Services, ConfigMaps, Secrets, and Ingress NGINX).",
+							"stacks": ["Kubernetes (EKS)", "Go", "Python", "Docker", "PostgreSQL", "Redis", "Ingress"],
+							"skills": [
+								"Monolith Decomposition into Microservices",
+								"Kubernetes Orchestration (AWS EKS)",
+								"Declarative Manifests (Deployments, Services, Ingress)",
+								"Optimized Multi-Stage Dockerfiles",
+								"Concurrent Programming with Go",
+								"Distributed Caching with Redis"
+							],
+							"videoLink": "https://drive.google.com/file/d/11mHlmnT2M0B5FrqT3sptoVzgoiMK9tox/view?usp=drive_link",
+							"folderLink": "https://drive.google.com/drive/folders/1JYZ0lyGiNTNmtyfqJi7Z47aCH2rnBgcU",
+							"githubLink": "https://github.com/Santosu01/techchallenger-fases-postech"
+						},
+						{
+							"id": 3,
+							"title": "Phase 3: Infrastructure as Code (IaC), DevSecOps & GitOps",
+							"project": "Immutable Infrastructure & GitOps Pipeline",
+							"description": "Full automation and infrastructure governance using Terraform on AWS (provisioning VPC with public/private subnets, EKS Cluster, 3x RDS PostgreSQL, ElastiCache Redis, DynamoDB, SQS, ECR repositories, and S3 remote state with DynamoDB lockfile). Implementation of DevSecOps pipeline in GitHub Actions with security and quality scanning (SonarCloud, Trivy for containers, Hadolint) and continuous GitOps deployments managed by ArgoCD.",
+							"stacks": ["Terraform", "AWS (RDS, SQS, ElastiCache)", "ArgoCD (GitOps)", "GitHub Actions", "DevSecOps", "SonarCloud", "Trivy"],
+							"skills": [
+								"Infrastructure as Code (Terraform)",
+								"Remote State Management with S3 & DynamoDB Lock",
+								"DevSecOps Pipelines in GitHub Actions",
+								"Vulnerability Scanning (Trivy & Hadolint)",
+								"Static Code Quality with SonarCloud",
+								"Declarative Continuous Deployment with GitOps (ArgoCD)"
+							],
+							"videoLink": "https://drive.google.com/file/d/15qJp1TZbp-BuRriKaOZIe3rUH1O60Irn/view?usp=drive_link",
+							"folderLink": "https://drive.google.com/drive/folders/1Qwitig1f5_3EmjMydksUKLQp4W5R3otE",
+							"githubLink": "https://github.com/Santosu01/techchallenger-fases-postech"
+						},
+						{
+							"id": 4,
+							"title": "Phase 4: Full Observability & Active Response",
+							"project": "Telemetry & Self-Healing",
+							"description": "Implementation of modern real-time observability stack for ToggleMaster: application instrumentation with OpenTelemetry SDK (OTel Collector via OTLP gRPC), metric collection with Prometheus, centralized logging with Loki, and dynamic Grafana dashboards for latency, throughput, saturation, and error rate. New Relic integration for APM and proactive alerting with self-healing and webhook notifications.",
+							"stacks": ["OpenTelemetry", "Prometheus", "Grafana", "Loki", "New Relic", "Self-Healing", "Alertmanager"],
+							"skills": [
+								"OpenTelemetry Instrumentation (OTel Collector)",
+								"Metrics Collection & Monitoring with Prometheus",
+								"Centralized Logging with Grafana Loki",
+								"Real-Time Telemetry Dashboards on Grafana",
+								"Distributed Tracing & APM with New Relic",
+								"Proactive Alerting & Self-Healing Automation"
+							],
+							"videoLink": "https://drive.google.com/file/d/1PTc8-QVeOJazfpVTVbRjyUZ_q0OqQMj6/view?usp=drive_link",
+							"folderLink": "https://drive.google.com/drive/folders/1vaTlqm9jI-MYoc5qVno0kfyoeN6Sv_nv",
+							"githubLink": "https://github.com/Santosu01/techchallenger-fases-postech"
+						},
+						{
+							"id": 5,
+							"title": "Phase 5: Final Hackathon — SRE, FinOps & Resilience",
+							"project": "SolidaryTech (NGO Platform)",
+							"description": "Consolidation final hackathon designing the high-resilience SolidaryTech platform, comprising 3 heterogeneous microservices (Donation Service in Go with AWS SQS async messaging, NGO Service in Python/Flask with PostgreSQL, and Volunteer Service in Python with DynamoDB). Advanced application of SRE principles (SLIs, SLOs, Error Budgets), FinOps for cloud cost optimization, ITSM practices, contingency, CI/CD pipelines, and Terraform on Kubernetes.",
+							"stacks": ["SRE", "FinOps", "ITSM", "Terraform", "Kubernetes", "AWS SQS", "Go", "Python", "Resilience"],
+							"skills": [
+								"Site Reliability Engineering (SRE - SLIs, SLOs, Error Budgets)",
+								"FinOps & Cloud Cost Optimization",
+								"High Resilience & Event-Driven Architecture",
+								"Asynchronous Messaging with AWS SQS",
+								"Polyglot Microservices (Go & Python)",
+								"ITSM, Incident Contingency & SRE Culture"
+							],
+							"videoLink": "https://drive.google.com/file/d/1Uc8Hf2My_-ubR3oo7kJ8n7BSGZYIXOj3/view?usp=drive_link",
+							"folderLink": "https://drive.google.com/drive/folders/14UP-ezTGw4WSEUzJOm9wOdr8r9qWzvk9",
+							"githubLink": "https://github.com/Aanastc/Fase5_posTech"
+						}
+					]
+				}
+			]
+		}
 	}
 }
